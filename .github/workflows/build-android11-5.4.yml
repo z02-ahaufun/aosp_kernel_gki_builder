@@ -11,7 +11,6 @@ on:
         description: "额外的config片段"
         required: false
         default: ""
-        type: string
 
 jobs:
   build:
