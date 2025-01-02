@@ -7,6 +7,11 @@ on:
         required: true
         default: false
         type: boolean
+      config_ext:
+        description: "额外的config片段"
+        required: false
+        default: ""
+        type: string
 
 jobs:
   build:
